@@ -9,7 +9,7 @@ This repo demonstrates how to use a ssl/tls certificate to be used in a nodejs e
 Step 1: Clone the repo
 
 ```bash
-git clone https://github.com/trulymittal/ssl-secured.git
+git clone https://github.com/turbo-xav/hello-express-nodejs-ssl.git
 ```
 
 Step 2: cd into the cloned repo and run:
