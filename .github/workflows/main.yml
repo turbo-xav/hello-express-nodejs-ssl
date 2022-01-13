@@ -48,8 +48,8 @@ jobs:
       - name: Post Deploy
         uses: appleboy/ssh-action@master
         with:
-            host: ${{ secrets.REMOTE_HOST_PROD }}
-            username: ${{ secrets.REMOTE_USER_PROD }}
-            key: ${{ secrets.SSH_PRIVATE_KEY_PROD }}
+            host: ${{ secrets.REMOTE_HOST }}
+            username: ${{ secrets.REMOTE_USER }}
+            key: ${{ secrets.SERVER_SSH_KEY }}
             port: 22
             script: cd /home/root/deploy-test && npm start
